@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--google-fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrab-->
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <!--font-awesome-->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!--css sheet-->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!--css login-->
+    <link rel="stylesheet" href="CSS/login.css" />
+    <title>Create New Account</title>
+  </head>
+  <body>
+    <main>
+      <!--fixed-nav-->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <div class="icon-brand">
+            <i class="fas fa-user-secret"></i>
+            <a class="navbar-brand" href="#">Dokan Shop</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon w-100 h-100"
+              ><i class="fa-solid fa-bars"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#latest-products">latest products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#top-deals">top-deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">log in</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="men.html">Men's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="women.html">Women's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kids.html">Kids's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accessories.html"
+                      >Accessories</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--start form-->
+      <div class="form-sec d-flex justify-content-center align-items-center">
+        <form class="login regis container d-flex px-5 flex-column">
+          <h1 class="mt-5 mb-3">Registration Form</h1>
+          <div class="labl d-flex">
+            <label> First Name : <input type="text" required /> </label>
+            <label> Last Name : <input type="text" required /> </label>
+          </div>
+          <div class="labl d-flex">
+            <label> Birthdate : <input type="date" required /> </label>
+            <label class="gender" for="gender">
+              <p>Gender :</p>
+              <input type="radio" required name="gender" />
+              <span>Male</span>
+              <input type="radio" name="gender" /> <span>Female</span>
+            </label>
+          </div>
+          <div class="labl d-flex">
+            <label> Email : <input type="email" required /> </label>
+            <label> Mobile Number : <input type="text" required /> </label>
+          </div>
+          <div class="labl d-flex">
+            <label class="w-100 d-flex flex-wrap fba">
+              <p>Select your country :</p>
+              <input
+                type="text"
+                required
+                style="flex-basis: 70%; margin: 0 2px 0 0"
+              />
+              <select>
+                <option>Egypt</option>
+                <option>United Status</option>
+                <option>England</option>
+                <option>Qatar</option>
+                <option>Saudia</option>
+                <option>Iraq</option>
+                <option>Sweed</option>
+                <option>Italy</option>
+                <option>Span</option>
+                <option>Egypt</option>
+                <option>United Status</option>
+                <option>England</option>
+                <option>Qatar</option>
+                <option>Saudia</option>
+                <option>Iraq</option>
+                <option>Sweed</option>
+                <option>Italy</option>
+                <option>Span</option>
+                <option>Egypt</option>
+                <option>United Status</option>
+                <option>England</option>
+                <option>Qatar</option>
+                <option>Saudia</option>
+                <option>Iraq</option>
+                <option>Sweed</option>
+                <option>Italy</option>
+                <option>Span</option>
+              </select>
+            </label>
+          </div>
+          <div class="labl d-flex">
+            <label class="d-flex align-items-baseline w-100" for="check">
+              <input type="checkbox" required name="check" />
+              <p>
+                By Sign up, you agree to the
+                <a href="#" class="text-decoration-none">Terms of service</a>
+                and <a href="#" class="text-decoration-none">Privacy Policy</a>,
+                including Cookie Use.
+              </p></label
+            >
+          </div>
+          <div class="sub d-flex w-25 flex-column m-0">
+            <input type="reset" value="Reset" class="btn btn-danger" />
+            <input type="submit" value="Sign Up" class="btn btn-danger" />
+          </div>
+        </form>
+      </div>
+      <!--end-form-->
+      <!--start footer-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="footer-icon col-lg-3 col-md-6 col-12">
+              <i class="fas fa-user-secret"></i>
+              <a href="#home">Dokan Shop</a>
+            </div>
+            <div class="footer-box col-lg-3 col-md-6 col-12">
+              <h4>Shopping & Categories</h4>
+              <ul>
+                <li><a href="men.html">Men's shopping</a></li>
+                <li><a href="women.html">Women's shopping</a></li>
+                <li><a href="kids.html">Kids's shopping</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+              </ul>
+            </div>
+            <div class="footer-box col-lg-3 col-md-6 col-12">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-box col-lg-3 col-md-6 col-12">
+              <h4>Help & Information</h4>
+              <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">FAQ'S</a></li>
+                <li><a href="#">Track Your Shipping</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom col-12">
+            <p>Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.</p>
+            <div class="footer-links">
+              <a href="https://www.facebook.com/" target="-blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://twitter.com/" target="-blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://wsend.co/201119554463" target="-blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="-blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end footer-->
+    </main>
+    <!--bootstrab-->
+    <script src="Js/popper.js"></script>
+    <script src="Js/bootstrap.js"></script>
+  </body>
+</html>

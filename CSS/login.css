@@ -1,0 +1,139 @@
+:root {
+  --mainColor: indianred;
+  --secondaryColor: #343a40;
+  --pColor: #777;
+  --uppercase: uppercase;
+}
+.form-sec {
+  width: 100%;
+  margin: 5em auto;
+  padding: 1em;
+}
+.form-sec .login {
+  width: 30em;
+  height: 90%;
+  background-color: #f3f3f3;
+  border-radius: 3em;
+  position: relative;
+  top: 10%;
+  box-shadow: inset -3px -3px 1px rgba(0, 0, 0, 0.5);
+  padding-bottom: 1em;
+}
+.sw button {
+  box-shadow: inset -1px -1px 1px black;
+}
+.login input {
+  width: 85%;
+  padding: 0.6em;
+  margin: 3px auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  caret-color: tomato;
+  color: rgb(146, 31, 11);
+}
+.login label {
+  width: 85%;
+  margin: 10px auto;
+}
+.login [type="checkbox"] {
+  width: 4%;
+  margin: 0px;
+  margin-right: 3px;
+}
+.login span {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.login [type="submit"],
+.login [type="reset"] {
+  border-radius: 0.7em;
+  box-shadow: 2px 2px 1px #000000a6;
+  padding: 0.3em;
+  color: white;
+  text-align: center;
+}
+.login .btn:focus {
+  box-shadow: none;
+}
+.login [type="submit"]:active,
+.login [type="reset"]:active {
+  box-shadow: -2px -2px 1px #000000a6;
+}
+.forget {
+  margin: 2em auto !important;
+  border-bottom: 1px solid #777;
+  padding-bottom: 1em;
+}
+.forget a:hover {
+  font-weight: bold;
+  text-decoration: underline !important;
+  font-style: italic;
+}
+.creat-acc a {
+  border-radius: 0.7em;
+  box-shadow: 2px 2px 1px #000000a6;
+  color: white;
+}
+@media screen and (max-width: 460px) {
+  .sw {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .sw button {
+    margin-bottom: 10px;
+  }
+  .login [type="submit"],
+  .login [type="reset"] {
+    font-size: 12px;
+  }
+}
+/*registry page*/
+.regis h1 {
+  color: var(--mainColor);
+  font-size: 2rem !important;
+  font-weight: 500;
+}
+.form-sec .regis {
+  width: 35em !important;
+}
+.labl label {
+  font-weight: 500;
+  width: 50%;
+}
+.labl input {
+  width: 95%;
+  border: none;
+  border-top: 2px solid #888;
+  border-left: 2px solid #888;
+  padding: 0.25em;
+}
+.gender input {
+  width: fit-content !important;
+}
+.gender p {
+  margin-bottom: 0.5em !important;
+}
+select {
+  flex-basis: 20%;
+  height: 46%;
+  align-self: center;
+  border: none;
+  border-top: 2px solid #888;
+  border-left: 2px solid #888;
+}
+.labl a:hover {
+  color: blue;
+  text-decoration: underline !important;
+}
+@media screen and (max-width: 600px) {
+  .labl {
+    flex-wrap: wrap;
+  }
+  .labl label {
+    width: 100%;
+  }
+  .fba input {
+    flex-basis: 100% !important;
+  }
+}

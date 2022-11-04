@@ -1,0 +1,117 @@
+:root {
+  --mainColor: indianred;
+  --secondaryColor: #343a40;
+  --pColor: #777;
+  --uppercase: uppercase;
+}
+.about-header {
+  background: url(../images/about-us-page-heading.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 5em;
+  text-align: center;
+}
+.about-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.about-header q,
+.about-header h1 {
+  z-index: 4;
+  position: relative;
+}
+.about-header h1 {
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  font-weight: 600;
+}
+/*end header*/
+.about {
+  overflow-x: hidden;
+}
+.about h2 {
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+}
+.about p {
+  color: var(--pColor);
+  font-weight: 500;
+}
+.about hr {
+  color: var(--pColor);
+  height: 2px;
+}
+.about-social i {
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;
+  padding: 0.25em;
+  transition: 1s;
+}
+.about-social i:hover {
+  color: black;
+  background-color: white;
+}
+.inside-border {
+  border: 2px solid #eee !important;
+  border-top: 3px solid #777 !important ;
+  border-left: 3px solid #777 !important;
+}
+.outside-border {
+  border: 2px solid #eee !important;
+  border-bottom: 3px solid #777 !important;
+  border-right: 3px solid #777 !important;
+}
+.px {
+  padding: 1em 10em;
+}
+/*start contact*/
+
+.cont-sec {
+  margin: 5em auto;
+}
+.cont-sec .card {
+  margin: 0 4em;
+}
+.cont-sec ul {
+  margin: 3em auto;
+  text-align: center;
+}
+.map {
+  border: 5px solid #eee;
+  border-top: 5px solid #999 !important ;
+  border-left: 5px solid #999 !important;
+}
+iframe,
+.feed-form {
+  width: 100%;
+  padding: 0;
+}
+.feed-form .h1 {
+  font-weight: 600;
+}
+.feedback {
+  padding: 1em 10em;
+}
+@media screen and (max-width: 991px) {
+  .card {
+    width: 100%;
+  }
+  .feedback {
+    padding: 1em;
+  }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--google-fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrab-->
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <!--font-awesome-->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!--css sheet-->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!--css login-->
+    <link rel="stylesheet" href="CSS/login.css" />
+    <title>log-in</title>
+  </head>
+  <body>
+    <main>
+      <!--fixed-nav-->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <div class="icon-brand">
+            <i class="fas fa-user-secret"></i>
+            <a class="navbar-brand" href="#">Dokan Shop</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon w-100 h-100"
+              ><i class="fa-solid fa-bars"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#latest-products">latest products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#top-deals">top-deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">log in</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="men.html">Men's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="women.html">Women's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kids.html">Kids's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accessories.html"
+                      >Accessories</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--start form-->
+      <div class="form-sec d-flex justify-content-center align-items-center">
+        <form class="login container d-flex align-items-center flex-column">
+          <h4 class="mt-5 mb-4">Sign In</h4>
+          <div class="sw">
+            <button class="btn btn-primary text-capitalize">
+              sign in with facebook
+            </button>
+            <button class="btn btn-danger text-capitalize">
+              sign in with google+
+            </button>
+          </div>
+          <h4 class="my-4">Or</h4>
+          <input type="text" placeholder="User Name" required />
+          <input type="password" placeholder="Password" required />
+          <label class="d-flex" for="checkbox">
+            <input type="checkbox" name="checkbox" /> <span>Remember Me</span>
+          </label>
+          <input type="submit" value="Sign In" class="btn btn-success" />
+          <label class="forget"
+            ><a
+              href="#"
+              class="text-primary text-opacity-75 text-decoration-none"
+              >Forget Password?</a
+            ></label
+          >
+          <div class="creat-acc">
+            <a href="creat-acc.html" class="btn btn-primary"
+              >Sign Up New Account</a
+            >
+          </div>
+        </form>
+      </div>
+      <!--end-form-->
+      <!--start footer-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="footer-icon col-lg-3 col-md-6 col-12">
+              <i class="fas fa-user-secret"></i>
+              <a href="#home">Dokan Shop</a>
+            </div>
+            <div class="footer-box col-lg-3 col-md-6 col-12">
+              <h4>Shopping & Categories</h4>
+              <ul>
+                <li><a href="men.html">Men's shopping</a></li>
+                <li><a href="women.html">Women's shopping</a></li>
+                <li><a href="kids.html">Kids's shopping</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+              </ul>
+            </div>
+            <div class="footer-box col-lg-3 col-md-6 col-12">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-box col-lg-3 col-md-6 col-12">
+              <h4>Help & Information</h4>
+              <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">FAQ'S</a></li>
+                <li><a href="#">Track Your Shipping</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom col-12">
+            <p>Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.</p>
+            <div class="footer-links">
+              <a href="https://www.facebook.com/" target="-blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://twitter.com/" target="-blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://wsend.co/201119554463" target="-blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="-blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end footer-->
+    </main>
+    <!--bootstrab-->
+    <script src="Js/popper.js"></script>
+    <script src="Js/bootstrap.js"></script>
+  </body>
+</html>
