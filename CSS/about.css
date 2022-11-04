@@ -47,6 +47,7 @@
 .about p {
   color: var(--pColor);
   font-weight: 500;
+  text-align: center;
 }
 .about hr {
   color: var(--pColor);
