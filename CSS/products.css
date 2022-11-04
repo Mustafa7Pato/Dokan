@@ -4,6 +4,9 @@
   --pColor: #777;
   --uppercase: uppercase;
 }
+.products{
+  overflow-x: hidden;
+}
 .product-header {
   background: url(../images/productsbackground.jpg);
   background-size: cover;
